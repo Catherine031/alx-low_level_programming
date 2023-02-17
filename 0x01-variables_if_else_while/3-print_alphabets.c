@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description: print the alphabet in lower case
- * and the in uppercase, follow by a new line
+ * and in the upper case, follow by a new line
  * Return: 0
  */
 int main(void)
@@ -22,4 +22,7 @@ int main(void)
 		putchar(c);
 		c++;
 	}
+
+	putchar('\n');
+	return (0);
 }
